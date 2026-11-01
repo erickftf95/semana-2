@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+</head>
+<body>
+
+    <!-- Encabezado superior con navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Imágenes</a></li>
+                <li><a href="#">Menú de Aplicaciones</a></li>
+                <li><button type="button">Iniciar sesión</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal: Logo y Buscador -->
+    <main>
+        <section>
+            <!-- Logo principal -->
+             <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" width="272" height="92">
+
+            <!-- Formulario de búsqueda -->
+            <form action="#" method="GET">
+                <div>
+                    <input type="text" name="q" placeholder="Buscar en Google o escribir una URL">
+                </div>
+                <div>
+                    <button type="submit">Buscar con Google</button>
+                    <button type="button">Me siento con suerte</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Ecuador</p>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="#">Sobre Google</a></li>
+                <li><a href="#">Publicidad</a></li>
+                <li><a href="#">Negocios</a></li>
+                <li><a href="#">Cómo funciona la Búsqueda</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Privacidad</a></li>
+                <li><a href="#">Condiciones</a></li>
+                <li><a href="#">Configuración</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
